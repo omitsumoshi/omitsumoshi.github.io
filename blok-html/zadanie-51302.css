@@ -1,0 +1,15 @@
+.mainpage {
+    background-color: beige
+}
+.aboutme {
+    background-color: aquamarine;
+    text-align: center;
+}
+.contact {
+    background-color: brown;
+    text-align: center;
+}
+footer {
+    background-color: grey;
+    text-align: center;
+}
