@@ -1,0 +1,28 @@
+* {
+    background-color: #213b50;
+    color: white;
+}
+input:focus,
+textarea:focus,
+select:focus {
+    background-color: #4e708c;
+}
+input,textarea, select {
+    background-color: #2b4a64;
+}
+input[value~="Send"]{
+    background-color: #1ac056;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+}
+input[value~="Send"]:hover {
+    background-color: #46e881;
+}
+form label {
+    display:block
+}
+.wybor {
+    display:inline
+}
