@@ -1,0 +1,27 @@
+.divmain {
+    width:400px;
+    height:400px;
+    background-color: #a6a9b6;
+    border: 10px solid;
+    border-color: #666360;
+    position: relative;
+}
+
+.divgrey {
+    width:200px;
+    height:200px;
+    background-color: #e4e4e4;
+    position: absolute;
+    top:0px;
+    right: 0px;
+}
+
+.divorange {
+    width:200px;
+    height:200px;
+    background-color: #ff912e;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
