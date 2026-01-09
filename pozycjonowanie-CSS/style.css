@@ -26,7 +26,6 @@
     top:20%;
     left:20%;
     
-   
 }
 
 .square:nth-of-type(1) {
@@ -50,15 +49,12 @@
 }
 }
 
-
-
 .square:nth-of-type(4) {
     background-color: yellow;
     .circle:nth-of-type(1) {
     background-color: green;
 }
 }
-
 
 .square:nth-of-type(5) {
     background-color: black;
@@ -67,14 +63,12 @@
 }
 }
 
-
 .square:nth-of-type(6) {
     background-color: orange;
     .circle:nth-of-type(1) {
     background-color: blue;
 }
 }
-
 
 .square:nth-of-type(7) {
     background-color: purple;
@@ -83,14 +77,12 @@
 }
 }
 
-
 .square:nth-of-type(8) {
     background-color: grey;
     .circle:nth-of-type(1) {
     background-color: yellow;
 }
 }
-
 
 .square:nth-of-type(9) {
     background-color: lightpink;
