@@ -1,0 +1,56 @@
+.countdown {
+    background-color: black;
+    position: relative;
+    color: white;
+    height: 500px;
+    width: 500px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    animation: countdown 3s linear;
+    counter-reset: my-count 10;
+     &::before {
+        content: text;
+        opacity: 0;
+     }
+     &::after {
+        content: counter(my-count);
+        font-size: 30em;
+        }       
+}
+
+@keyframes countdown {
+    0% {
+        counter-set: 10;
+    }
+    10% {
+        counter-increment: my-count -1;
+    }
+    20% {
+        counter-increment: my-count -2;
+    }
+    30% {
+        counter-increment: my-count -3;
+    }
+    40% {
+        counter-increment: my-count -4;    
+    }
+    50% {
+        counter-increment: my-count -5; 
+    }
+    60% {
+        counter-increment: my-count -6; 
+    }
+    70% {
+        counter-increment: my-count -7;
+    }
+    80% {
+        counter-increment: my-count -8;
+    }
+    90% {
+        counter-increment: my-count -9;
+    }
+    100% {
+    
+    }
+}
