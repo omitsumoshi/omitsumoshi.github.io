@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moje Portfolio</title>
+    <!-- Normalize CSS -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <!-- Font awesome -->
+    <script src="https://kit.fontawesome.com/985b4e0cc6.js" crossorigin="anonymous"></script>
+    <!-- Styling sheet -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="main-header">
+        <div class="main-header-content">
+            <h1>Front end developer</h1>
+            <hr>
+            <p>HTML <span>· </span> CSS <span>· </span> JAVASCRIPT <span>· </span></p>
+            <a href="" class="btn">Dowiedz sie wiecej</a>
+        </div>
+    </header>
+
+    <nav class="main-menu">
+        <label for="drop-nav">Menu</label>
+        <input type="checkbox" id="drop-nav">
+        <ul>
+            <li class="menu-item"><a href="#about">O mnie</a></li>
+            <li class="menu-item"><a href="#portfolio">Portfolio</a></li>
+            <li class="menu-item"><a href="#contact">Kontakt</a></li>
+        </ul>
+    </nav>
+    <section id="about" class="about">
+        <div class="container">
+            <header class="section-header">
+                <h2>O mnie</h2>
+                <hr>
+            </header>
+            <img src="grafiki/about.jpg" alt="Moje zdjecie" class="about-picture">
+
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime, consequatur numquam magni perspiciatis
+                sit laudantium quaerat natus quidem? Sit neque exercitationem molestias fugiat enim facere esse labore
+                error quisquam sequi! Aperiam fugiat mollitia quidem repudiandae debitis ipsa iusto explicabo. Esse
+                omnis consequatur maxime eveniet nulla beatae repudiandae quas praesentium sequi.</p>
+
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum facere magni, minima aspernatur, ab
+                pariatur, commodi magnam quia fuga in a inventore minus aut eius consequatur rem quos quas perspiciatis?
+            </p>
+
+            <a href="" class="btn">Moje portfolio</a>
+        </div>
+    </section>
+
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <header class="section-header">
+                <h2>Portfolio</h2>
+                <hr>
+            </header>
+            <div class="portfolio-wrapper">
+                <a href="" class="portfolio-item">
+                    <img src="grafiki/photo-1.jpg" alt="Zdjecie laptopa na biurku">
+                    <h3>Projekt</h3>
+                </a>
+                <a href="" class="portfolio-item">
+                    <img src="grafiki/photo-2.jpg" alt="Zdjecie zarowek na tle chmur">
+                    <h3>Projekt</h3>
+                </a>
+                <a href="" class="portfolio-item">
+                    <img src="grafiki/photo-3.jpg" alt="Zdjecie nebieskiego motocykla">
+                    <h3>Projekt</h3>
+                </a>
+                <a href="" class="portfolio-item">
+                    <img src="grafiki/photo-4.jpg" alt="Zdjecie borowek">
+                    <h3>Projekt</h3>
+                </a>
+                <a href="" class="portfolio-item">
+                    <img src="grafiki/photo-5.jpg" alt="Zdjecie niebieskich kredek">
+                    <h3>Projekt</h3>
+                </a>
+                <a href="" class="portfolio-item">
+                    <img src="grafiki/photo-6.jpg" alt="Zdjecie laptopa z niebieskim tlem">
+                    <h3>Projekt</h3>
+                </a>
+                <a href="" class="portfolio-item">
+                    <img src="grafiki/photo-7.jpg" alt="Zdjecie niebieskiego budynku">
+                    <h3>Projekt</h3>
+                </a>
+                <a href="" class="portfolio-item">
+                    <img src="grafiki/photo-8.jpg" alt="Zdjecie niebieskich szklanych wazonow">
+                    <h3>Projekt</h3>
+                </a>
+                <a href="" class="portfolio-item">
+                    <img src="grafiki/photo-9.jpg" alt="Zdjecie cappuccino w niebieskiej filizance">
+                    <h3>Projekt</h3>
+                </a>
+                <a href="" class="portfolio-item">
+                    <img src="grafiki/photo-10.jpg" alt="Zdjecie niebieskich olowkow">
+                    <h3>Projekt</h3>
+                </a>
+                <a href="" class="portfolio-item">
+                    <img src="grafiki/photo-11.jpg" alt="Zdjecie niebieskiej farby">
+                    <h3>Projekt</h3>
+                </a>
+                <a href="" class="portfolio-item">
+                    <img src="grafiki/photo-12.jpg" alt="Zdjecie niebieskiego samochodu">
+                    <h3>Projekt</h3>
+                </a>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="contact">
+        <div class="container">
+            <header class="section-header">
+                <h2>Kontakt</h2>
+                <hr>
+            </header>
+            <form action="">
+                <input type="text" placeholder="Imie" name="name">
+                <input type="email" placeholder="E-mail" name="email">
+                <textarea name="message" id="message" placeholder="Wiadomosc"></textarea>
+                <input type="submit" class="btn">
+            </form>
+            <div class="social-links">
+                <a href="" class="social-link"><i class="fa-brands fa-square-facebook"></i></a>
+                <a href="" class="social-link"><i class="fa-brands fa-square-twitter"></i></a>
+                <a href="" class="social-link"><i class="fa-brands fa-square-instagram"></i></a>
+                <a href="" class="social-link"><i class="fa-brands fa-square-youtube"></i></a>
+            </div>
+        </div>
+    </section>
+    <footer class="main-footer">
+        <div class="container">
+            <p>Copyright Akademia 108</p>
+            
+        </div>
+    </footer>
+</body>
+
+</html>
