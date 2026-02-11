@@ -11,6 +11,7 @@ for(let i=0; i<element.length; i++){
     let liElement = document.createElement('li');
     let attrNode = document.createAttribute('class');
     attrNode.value = 'cities';
+    liElement.setAttributeNode(attrNode);
     liElement.textContent = element[i];
     olElement.appendChild(liElement);
 }
