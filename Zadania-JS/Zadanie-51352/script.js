@@ -1,6 +1,6 @@
 
 
-let button = document.getElementsByTagName('button');
+let button = document.getElementsByTagName('button')[0];
 
 const addNewLi = () => {
     let newLi = document.createElement('li');
