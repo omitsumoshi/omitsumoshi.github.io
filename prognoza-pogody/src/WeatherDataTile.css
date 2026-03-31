@@ -1,0 +1,7 @@
+.weather-tile {
+    width: 25%;
+    border: solid black;
+    text-align: center;
+    box-sizing: border-box;
+
+}
